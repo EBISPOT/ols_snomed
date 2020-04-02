@@ -1,0 +1,21 @@
+
+"@context":
+
+ontologies:
+
+  - id: snomed
+    preferredPrefix: SNOMED
+    title: SNOMED CT (International Edition)
+    description: >
+      SNOMED CT or SNOMED Clinical Terms is a systematically organized computer processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting.
+    uri: http://snomed.info/sct/900000000000207008
+    base_uri:
+      - http://purl.obolibrary.org/obo/UPHENO_
+    synonym_property:
+      - http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+    definition_property:
+      - http://purl.obolibrary.org/obo/IAO_0000115
+#    label_property:  http://www.w3.org/2004/02/skos/core#prefLabel
+    reasoner: EL
+    oboSlims: false
+    ontology_purl : file:/opt/ols/ontologies/snomed.owl
